@@ -29,10 +29,6 @@
         "prop-types": "^15.5.10",
         "react-addons-shallow-compare": "15.6.0"
     },
-    "peerDependencies": {
-        "react": "*",
-        "react-native": "*"
-    },
     "devDependencies": {
         "babel-eslint": "^7.2.3",
         "eslint": "^3.19.0",

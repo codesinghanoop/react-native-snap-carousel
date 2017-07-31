@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import { Animated, Easing, ViewPropTypes } from 'react-native';
+import { Animated, Easing, View } from 'react-native';
 import PropTypes from 'prop-types';
 import styles from './Pagination.style';
 
 export default class PaginationDot extends Component {
 
-    static propTypes = {
-        active: PropTypes.bool,
-        style: ViewPropTypes.style,
-        inactiveOpacity: PropTypes.number,
-        inactiveScale: PropTypes.number
-    };
+    // static propTypes = {
+    //     active: PropTypes.bool,
+    //     inactiveOpacity: PropTypes.number,
+    //     inactiveScale: PropTypes.number
+    // };
 
     static defaultProps = {
         inactiveOpacity: 0.5,
