@@ -5,11 +5,11 @@ import styles from './Pagination.style';
 
 export default class PaginationDot extends Component {
 
-    // static propTypes = {
-    //     active: PropTypes.bool,
-    //     inactiveOpacity: PropTypes.number,
-    //     inactiveScale: PropTypes.number
-    // };
+    static propTypes = {
+        active: PropTypes.bool,
+        inactiveOpacity: PropTypes.number,
+        inactiveScale: PropTypes.number
+    };
 
     static defaultProps = {
         inactiveOpacity: 0.5,
